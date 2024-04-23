@@ -1,0 +1,141 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+}
+#header{
+    display: flex;
+    background-color: white;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+   border-bottom: 1px solid #b6b1b1;
+ 
+}
+.myntralogo{
+    height: 36px;
+    width: 53px;
+
+}
+.logo{
+    margin-left: 4%;
+}
+.action-bar{
+    margin-right: 4%;
+}
+#navigation{
+    display: flex;
+    min-width: 500px;
+   justify-content: space-evenly;
+    margin-left: 1%;
+     
+}
+.nav{
+    font-size: 14px;
+    letter-spacing: .3px;
+    color: #2B2c3f;
+    text-decoration: none;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 25px 0;
+    margin-left: 15px;
+   
+   
+   
+}
+.nav:hover{
+    border-bottom: 4px solid #f54e77;
+   
+}
+.nav sup{
+    color:#ff3f6c ;
+    font-size: 10px;
+}
+.search-box{
+    height: 40px;
+    min-width: 200px;
+    width: 30%;
+    display: flex;
+    align-items: center;
+}
+#search-icon{
+   box-sizing: content-box;
+    height: 20px;
+    padding: 10px;
+    background-color: #f3f5f6;
+    
+    color: #2b2c3f; 
+    font-weight: 300; 
+    border-radius: 4px 0 0 4px;
+}
+.search-bar{
+    background-color: #f3f5f6;
+    color:#696e79 ;
+    font-size: 14px;
+    flex-grow: 1;
+    height: 40px;
+    border: 0;
+    border-radius: 0 4px 0 4px;
+}
+.action-bar{
+    display: flex;
+    min-width: 200px;
+    justify-content: space-evenly;
+}
+.action-container{
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+}
+.banner{
+    margin: 40px 0;
+}
+.bannerimage{
+    width: 100%;
+}
+.heading{
+    text-transform: uppercase;
+    text-transform: uppercase;
+    color: #3e4152;
+    letter-spacing: .15em;
+    font-size: 1.8em;
+    margin: 50px 50px 10px 30px;
+    max-height: 5em;
+    font-weight: 700 
+}
+.item{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.saleitem{
+    width: 250px;
+}
+.footer{
+    padding: 30px 0 40px 0px;
+    background-color: #fafbfc;
+    display: flex;
+    justify-content: space-evenly;
+}
+.footery{
+    display: flex;
+    flex-direction: column;
+
+}
+.footery a{
+    color: #696b79;
+    font-size: 15px;
+    text-decoration: none;
+    padding-bottom: 5px;
+}
+.footery h3{
+    color: #282c3f;
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+.right{
+    color: #94969f;
+    text-align: end;
+    padding: 15px;
+}
